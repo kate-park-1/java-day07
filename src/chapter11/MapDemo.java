@@ -17,7 +17,7 @@ public class MapDemo {
 
     hashMap.put("딸기",10);
     System.out.println(hashMap);
-    hashMap.put("사과",20);
+    hashMap.put(null,20);
     System.out.println(hashMap);
     hashMap.forEach((k,v)->System.out.println(k+" : "+v));
   }
